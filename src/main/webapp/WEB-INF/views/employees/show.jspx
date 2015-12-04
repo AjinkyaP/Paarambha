@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_principal_paarambha_domain_Employee" object="${employee}" path="/employees" z="CKgF6JxTHBnJ+BmE9x74cNvh8/s=">
+        <field:display field="firstName" id="s_com_principal_paarambha_domain_Employee_firstName" object="${employee}" z="5O5zFhfdSWa7QFeKEMucQusg7fE="/>
+        <field:display field="lastName" id="s_com_principal_paarambha_domain_Employee_lastName" object="${employee}" z="5ZE5WLzVQaeuDq1JhA1eIYG2cdk="/>
+        <field:display field="emailId" id="s_com_principal_paarambha_domain_Employee_emailId" object="${employee}" z="6Tp1GECau8oxuJ5fGFm+kpSW1zM="/>
+        <field:display date="true" dateTimePattern="${employee_dateofbirth_date_format}" field="dateOfBirth" id="s_com_principal_paarambha_domain_Employee_dateOfBirth" object="${employee}" z="Npc4u26tJgKTEeTabXB5idABQmQ="/>
+        <field:display field="phoneNumber" id="s_com_principal_paarambha_domain_Employee_phoneNumber" object="${employee}" z="cRoKpmlzp9MWs1UDEzHp4/LQbDE="/>
+        <field:display field="buddy" id="s_com_principal_paarambha_domain_Employee_buddy" object="${employee}" z="X/QUP7qcKHEwI9HXm1MksMILvjk="/>
+    </page:show>
+</div>

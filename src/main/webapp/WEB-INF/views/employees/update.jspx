@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_principal_paarambha_domain_Employee" modelAttribute="employee" path="/employees" versionField="Version" z="a6fs24pcHyj1G2oAJav9tEXHdBo=">
+        <field:input field="firstName" id="c_com_principal_paarambha_domain_Employee_firstName" required="true" z="M6X8KIRfxt1aI+8iLyeUqUwNjuc="/>
+        <field:input field="lastName" id="c_com_principal_paarambha_domain_Employee_lastName" required="true" z="R8/CFjo3BrM0/1Cw11gtkd/uTjs="/>
+        <field:input field="emailId" id="c_com_principal_paarambha_domain_Employee_emailId" required="true" validationMessageCode="field_invalid_email" z="vxCP0u3crogxbta+9VFCCfw0CnQ="/>
+        <field:datetime dateTimePattern="${employee_dateofbirth_date_format}" field="dateOfBirth" id="c_com_principal_paarambha_domain_Employee_dateOfBirth" z="U2YB8ZVpJkr4JmlJAXj89FCqbvs="/>
+        <field:input field="phoneNumber" id="c_com_principal_paarambha_domain_Employee_phoneNumber" min="10" required="true" z="ZNtz5SnKr21d9lRwAui/kwbOuaI="/>
+        <field:input field="buddy" id="c_com_principal_paarambha_domain_Employee_buddy" required="true" z="sHP+hAJN5aM0qgtg9vYl8EbvjC4="/>
+    </form:update>
+</div>

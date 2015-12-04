@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="com.principal.paarambha.domain.EmployeeIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.principal.paarambha.domain.EmployeeDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.principal.paarambha.domain.EmployeeDataOnDemand_Roo_Configurable"/>
+<aspect name="com.principal.paarambha.domain.EmployeeIntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

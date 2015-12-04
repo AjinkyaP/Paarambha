@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_principal_paarambha_domain_Employee" items="${employees}" z="IdRfUsNDWbQY5CB9sTZT5BZbWRk=">
+        <table:table data="${employees}" id="l_com_principal_paarambha_domain_Employee" path="/employees" z="ST0uDT4nQN5l12HqlZKjudjI6oA=">
+            <table:column id="c_com_principal_paarambha_domain_Employee_firstName" property="firstName" z="nQjKMW1laVX8UcYbuf/GdeLNVv8="/>
+            <table:column id="c_com_principal_paarambha_domain_Employee_lastName" property="lastName" z="Sjdanxf6DDq0loBBZ8l5FeVLWFc="/>
+            <table:column id="c_com_principal_paarambha_domain_Employee_emailId" property="emailId" z="/A9xkj5+rGGXDp162R8tlg2/AdM="/>
+            <table:column date="true" dateTimePattern="${employee_dateofbirth_date_format}" id="c_com_principal_paarambha_domain_Employee_dateOfBirth" property="dateOfBirth" z="4BbpuLmp0qf7oBAuDHHRV9mhxvY="/>
+            <table:column id="c_com_principal_paarambha_domain_Employee_phoneNumber" property="phoneNumber" z="YGDCzGoFS+B76z0CD09UC3JaPbM="/>
+            <table:column id="c_com_principal_paarambha_domain_Employee_buddy" property="buddy" z="l+1fU8L+sQH+DED0v0oemBQBP3M="/>
+        </table:table>
+    </page:list>
+</div>
